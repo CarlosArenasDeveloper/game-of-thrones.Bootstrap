@@ -1,0 +1,128 @@
+body {
+  background: url("imagenes/fondobody.jpg");
+}
+
+.fondo {
+  background: url("imagenes/fondocontenedor2.jpg");
+}
+
+.cabecera {
+  background: linear-gradient(to right, #b32525, #4d0202);
+}
+
+.negro {
+  background-color: black;
+}
+
+.rojo {
+  background-color: #b32525;
+}
+
+.texto {
+  color: #b32525;
+  font-size: 18px;
+}
+
+.ciudades img {
+  height: 20em
+}
+
+.nombreciudad {
+  font-size: 20px;
+}
+
+.imagenpie:hover {
+  transform: scale(1.05);
+}
+
+.listapie .list-group-mine .list-group-item {
+  background-color: white;
+  border-left-color: black;
+  border-right-color: black;
+}
+
+.listaescenas .list-group-mine .list-group-item {
+  background-color: #b32525;
+  border-top: 0.25px solid black;
+}
+
+.list-group-mine .list-group-item:hover {
+  background-color: black;
+  color: white;
+}
+
+article {
+  font-family: 'Courier New', Courier, monospace;
+  text-indent: 40px;
+  font-size: 16px;
+}
+
+.titulo {
+  font-family: Arial Black;
+  color: black;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+  background-color: #690303;
+  border-radius: 2em;
+}
+
+.nav-item :hover {
+  background-color: white;
+  color: black
+}
+
+@media (min-width: 992px) and (max-width: 1500px) {
+  article {
+    font-size: 17px;
+  }
+
+  .list-group-item{
+    font-size:  17px ;
+  }
+
+  .titulo {
+    font-size: 26px;
+  }
+
+  tr {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  article {
+    font-size: 14px;
+  }
+
+  .list-group-item{
+    font-size:  14px ;
+  }
+  .titulo {
+    font-size: 24px;
+  }
+
+  tr {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  article {
+    font-size: 12px;
+  }
+
+  .list-group-item{
+    font-size:  12px ;
+  }
+
+  .titulo {
+    font-size: 20px;
+  }
+
+  tr {
+    font-size: 12px;
+  }
+}
